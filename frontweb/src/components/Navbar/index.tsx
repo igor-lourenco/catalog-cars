@@ -1,19 +1,35 @@
 import './styles.css';
+import 'bootstrap/js/src/collapse.js';
 
 const Navbar = () => {
   return (
-    <nav className="bg-primary">
-      <div>
-        <a href="link">
+    <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
+      <div className="container-fluid">
+        <a href="link" className="nav-logo-text">
           <h4>Carros Top</h4>
         </a>
-        <div>
-          <ul>
+
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#catalog-cars-navbar"
+          aria-controls="dscatalog-navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse" id="catalog-cars-navbar">
+          <ul className="navbar-nav offset-md-6 main-menu">
             <li>
-              <a href="link">HOME</a>
+              <a href="link" className="active">
+                Home
+              </a>
             </li>
             <li>
-              <a href="link">CATÁLOGO</a>
+              <a href="link">Catálogo</a>
             </li>
           </ul>
         </div>
