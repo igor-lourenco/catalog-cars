@@ -1,14 +1,14 @@
 import './assets/styles/custom.scss';
 import './App.css';
 import Navbar from './components/Navbar';
+import Home from './pages/Home';
 
 const App = () => {
   return (
     <>
-    <Navbar />
-   <h1>Olá Igor</h1>
-   </>
+      <Home />
+    </>
   );
-}
+};
 
 export default App;
