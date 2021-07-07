@@ -1,0 +1,46 @@
+
+.car-card {
+  margin: 10px 5px;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #ededed;
+  padding: 14px 0px;
+}
+
+.card-top {
+  text-align: center;
+}
+
+.card-top img {
+  width: 220px;
+  height: 165px;
+}
+
+.car-bottom {
+  align-content: space-around;
+  padding: 10px;
+  text-align: center;
+}
+
+.car-bottom h6 {
+  font-size: 18px;
+  color: #000;
+}
+
+.car-bottom p {
+  font-size: 14px;
+  color: #585858;
+  padding: 20px 0;
+}
+
+.car-bottom button {
+  width: 90%;
+  height: 40px;
+  background: #00285f;
+  border-radius: 5px;
+}
+
+.car-bottom button h6 {
+  color: #fff;
+  font-size: 14px;
+}

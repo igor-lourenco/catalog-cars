@@ -1,0 +1,13 @@
+.car-container {
+    border: 1px solid red;
+    background: #fff;
+}
+
+.card-busca {
+ margin: 20px 5px;
+ padding: 20px 10px;
+  background: #ededed;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+}
