@@ -1,4 +1,4 @@
-.card-busca {
+.home-car-busca {
  margin: 20px 5px;
  padding: 20px 10px;
   background: #ededed;
@@ -6,3 +6,14 @@
   border-radius: 10px;
   display: flex;
 }
+
+.home-car-busca input {
+  border-radius: 10px 0 0 10px;
+}
+
+.busca-button {
+  width: 85px;
+  height: 40px;
+  border-radius: 0px 10px 10px 0px;
+}
+
